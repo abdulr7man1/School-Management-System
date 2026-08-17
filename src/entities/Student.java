@@ -22,7 +22,7 @@ public class Student extends Person  {
             double feeBalance) {
         super(
                 id,
-
+                firstName,
 
 
 
