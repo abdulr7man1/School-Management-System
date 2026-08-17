@@ -25,7 +25,7 @@ public class Student extends Person  {
                 firstName,
                 lastName,
                 dateOfBirth,
-
+                gender,
 
 
 
