@@ -107,7 +107,14 @@ public void displayInfo(){
         return "Person{id=" + id + ", name=" + firstName + " " + lastName + "}";
     }
 
-
+    @Override
+    public boolean equals(Object other) {
+        if (this == other) return true;
+        if (other == null) return false;
+        if (!(other instanceof Person)) return false;
+        Person p = (Person) other;
+        return this.id.equals(p.id);
+    }
 
 
 
