@@ -20,7 +20,17 @@ public class Student extends Person  {
             String gradeLevel,
             String enrollmentDate,
             double feeBalance) {
-        super();
+        super(
+                id,
+
+
+
+
+
+
+
+        );
+
 
     }
 
