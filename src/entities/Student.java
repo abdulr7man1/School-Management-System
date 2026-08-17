@@ -16,6 +16,8 @@ public class Student extends Person  {
             String gender,
             String phoneNumber,
             String email,
+            String address,
+
 
 
 
