@@ -11,7 +11,10 @@ public class Student extends Person  {
     public Student(
             String id,
             String firstName,
-            )
+            String LastName,
+            String dateOfBirth,
+
+           )
 
 
 
