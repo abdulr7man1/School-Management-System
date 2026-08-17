@@ -11,7 +11,7 @@ public class Student extends Person  {
     public Student(
             String id,
             String firstName,
-            String LastName,
+            String lastName,
             String dateOfBirth,
             String gender,
             String phoneNumber,
@@ -19,15 +19,10 @@ public class Student extends Person  {
             String address,
             String gradeLevel,
             String enrollmentDate,
+            double feeBalance) {
+        super();
 
-
-
-
-
-
-
-
-           )
+    }
 
 
 
