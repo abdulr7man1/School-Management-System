@@ -8,7 +8,7 @@ public class Person implements Displayable {
     private String lastName;
     private String dateOfBirth;
     private String gender;
-
+    private String phoneNumber;
 
 
 
