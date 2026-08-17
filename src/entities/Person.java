@@ -92,4 +92,20 @@ this.address = address;
     public void setAddress(String address) {
         this.address = address;
     }
+
+@Override
+public void displayInfo(){
+    System.out.println("Person: " + firstName + " " + lastName + " (id: " + id + ")");
+}
+    @Override
+    public String displaySummary() {
+        return id + " - " + firstName + " " + lastName;
+    }
+
+
+
+
+
+
+
 }
