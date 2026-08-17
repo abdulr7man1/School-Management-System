@@ -1,6 +1,9 @@
 package entities;
 
-public class Person {
+import interfaces.Displayable;
+
+public class Person implements Displayable {
+
 }
 
 
