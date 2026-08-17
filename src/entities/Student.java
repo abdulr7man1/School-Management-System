@@ -24,7 +24,7 @@ public class Student extends Person  {
                 id,
                 firstName,
                 lastName,
-
+                dateOfBirth,
 
 
 
