@@ -22,8 +22,4 @@ this.gender = gender;
 this.phoneNumber = phoneNumber;
 this.email = email;
 this.address = address;
-
-
-
-
 }
