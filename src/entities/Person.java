@@ -17,8 +17,7 @@ public class Person implements Displayable {
         setId(id);
 this.firstName = firstName;
 this.lastName = lastName;
-
-
+this.dateOfBirth = dateOfBirth;
 
 
 
