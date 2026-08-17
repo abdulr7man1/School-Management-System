@@ -23,7 +23,7 @@ public class Student extends Person  {
         super(
                 id,
                 firstName,
-
+                lastName,
 
 
 
