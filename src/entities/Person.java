@@ -20,7 +20,7 @@ this.lastName = lastName;
 this.dateOfBirth = dateOfBirth;
 this.gender = gender;
 this.phoneNumber = phoneNumber;
-
+this.email = email;
 
 
 
