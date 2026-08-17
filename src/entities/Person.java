@@ -102,7 +102,10 @@ public void displayInfo(){
         return id + " - " + firstName + " " + lastName;
     }
 
-
+    @Override
+    public String toString() {
+        return "Person{id=" + id + ", name=" + firstName + " " + lastName + "}";
+    }
 
 
 
