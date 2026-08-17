@@ -10,7 +10,7 @@ public class Person implements Displayable {
     private String gender;
     private String phoneNumber;
     private String email;
-
+    private String address;
 
 
 
