@@ -49,4 +49,20 @@ public class Student extends Person  {
         return subjects;
     }
 
+    public void setGradeLevel(String gradeLevel) {
+        this.gradeLevel = gradeLevel;
+    }
+
+    public void setEnrollmentDate(String enrollmentDate) {
+        this.enrollmentDate = enrollmentDate;
+    }
+
+    public void setFeeBalance(double feeBalance) {
+        this.feeBalance = feeBalance;
+    }
+
+    public void setSubjects(List<String> subjects) {
+        this.subjects = subjects;
+    }
 }
+.
