@@ -18,6 +18,8 @@ public class Student extends Person  {
             String email,
             String address,
             String gradeLevel,
+            String enrollmentDate,
+
 
 
 
