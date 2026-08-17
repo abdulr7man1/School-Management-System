@@ -7,4 +7,22 @@ public class Person implements Displayable {
     private String FirstName;
     private String lastName;
     private String dateOfBirth;
+    private String gender;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
