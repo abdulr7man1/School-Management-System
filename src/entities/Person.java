@@ -16,7 +16,7 @@ public class Person implements Displayable {
                   String gender, String phoneNumber, String email, String address) {
         setId(id);
 this.firstName = firstName;
-
+this.lastName = lastName;
 
 
 
