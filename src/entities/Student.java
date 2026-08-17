@@ -31,11 +31,22 @@ public class Student extends Person  {
                 addres
         );
 
-
     }
 
+    public String getGradeLevel() {
+        return gradeLevel;
+    }
 
+    public String getEnrollmentDate() {
+        return enrollmentDate;
+    }
 
+    public double getFeeBalance() {
+        return feeBalance;
+    }
 
+    public List<String> getSubjects() {
+        return subjects;
+    }
 
 }
