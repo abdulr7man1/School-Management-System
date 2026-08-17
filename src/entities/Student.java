@@ -65,4 +65,3 @@ public class Student extends Person  {
         this.subjects = subjects;
     }
 }
-.
