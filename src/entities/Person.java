@@ -4,7 +4,7 @@ import interfaces.Displayable;
 
 public class Person implements Displayable {
     private String id;
-    private String FirstName;
+    private String firstName;
     private String lastName;
     private String dateOfBirth;
     private String gender;
@@ -15,7 +15,7 @@ public class Person implements Displayable {
     public Person(String id, String firstName, String lastName, String dateOfBirth,
                   String gender, String phoneNumber, String email, String address) {
         setId(id);
-
+this.firstName = firstName;
 
 
 
