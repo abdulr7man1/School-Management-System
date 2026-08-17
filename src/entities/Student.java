@@ -26,7 +26,7 @@ public class Student extends Person  {
                 lastName,
                 dateOfBirth,
                 gender,
-
+                phoneNumber,
 
 
         );
