@@ -18,7 +18,7 @@ public class Person implements Displayable {
 this.firstName = firstName;
 this.lastName = lastName;
 this.dateOfBirth = dateOfBirth;
-
+this.gender = gender;
 
 
 
