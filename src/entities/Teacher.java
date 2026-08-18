@@ -61,6 +61,6 @@ public class Teacher extends Person{
         setSalary(salary);
     }
     public void updateSalary(double salary, String reason) {
-
+        setSalary(salary);
 
 
