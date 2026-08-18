@@ -21,7 +21,7 @@ public class SeniorStudent extends Student {
 
     @Override
     public void displayInfo() {
-
+        System.out.println("Senior Student: " + getFirstName() + " " + getLastName()
 
 
 }
