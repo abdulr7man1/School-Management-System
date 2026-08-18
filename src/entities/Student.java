@@ -82,9 +82,5 @@ public class Student extends Person {
                 + " | grade: " + gradeLevel + " | fee balance: " + feeBalance);
     }
 
-
-
-
-
         }
 
