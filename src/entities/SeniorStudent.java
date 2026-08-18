@@ -8,7 +8,7 @@ public class SeniorStudent extends Student {
                          String gradeLevel, String enrollmentDate, double feeBalance,
                          String major, double gpa) {
 
-
+        super(id, firstName, lastName, dateOfBirth, gender, phoneNumber, email, address,
 
 
 
