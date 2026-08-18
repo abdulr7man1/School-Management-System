@@ -57,4 +57,9 @@ public class Teacher extends Person{
         super.displayInfo();
 
     }
-}
+    public void updateSalary(double salary) {
+
+
+
+
+
