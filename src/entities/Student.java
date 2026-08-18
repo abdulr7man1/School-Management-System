@@ -70,7 +70,7 @@ public class Student extends Person {
         subjects.add(subject);
             }
     public void updateContact(String phone){
-
+        setPhoneNumber(phone);
     }
 
         }
