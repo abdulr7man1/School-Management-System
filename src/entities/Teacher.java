@@ -2,7 +2,7 @@ package entities;
 
 import java.util.List;
 
-public class Teacher extends Person{
+public class Teacher extends Person {
     private String subject;
     private int experienceYears;
     private double salary;
@@ -36,8 +36,13 @@ public class Teacher extends Person{
         return classesTaught;
     }
 
-    public void setSubject(String subject) { this.subject = subject; }
-    public void setSalary(double salary) { this.salary = salary; }
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
 
     public void setExperienceYears(int experienceYears) {
         if (experienceYears < 0) {                  // must be 0 or more
@@ -57,10 +62,13 @@ public class Teacher extends Person{
         super.displayInfo();
 
     }
+
     public void updateSalary(double salary) {
         setSalary(salary);
     }
+
     public void updateSalary(double salary, String reason) {
         setSalary(salary);
         System.out.println("Salary updated. Reason: " + reason);
     }
+}
