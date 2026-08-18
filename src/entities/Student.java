@@ -77,8 +77,9 @@ public class Student extends Person {
       setEmail(email);
     }
     @Override
-    public void displayInfo(){
-
+    public void displayInfo() {
+        System.out.println("Student: " + getFirstName() + " " + getLastName()
+                + " | grade: " + gradeLevel + " | fee balance: " + feeBalance);
     }
 
 
