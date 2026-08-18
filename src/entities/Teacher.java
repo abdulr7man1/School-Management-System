@@ -11,7 +11,7 @@ public class Teacher extends Person {
     public Teacher(String id, String firstName, String lastName
             , String dateOfBirth, String gender,
                    String phoneNumber, String email,
-
+                   String address, String subject, int experienceYears,
 
 
 
