@@ -10,7 +10,7 @@ public class SeniorStudent extends Student {
 
         super(id, firstName, lastName, dateOfBirth, gender, phoneNumber, email, address,
                 gradeLevel, enrollmentDate, feeBalance);
-
+        this.major = major;
 
 
 
