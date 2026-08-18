@@ -20,7 +20,7 @@ public class SeniorStudent extends Student {
     public void setGpa(double gpa) { this.gpa = gpa; }
 
     @Override
-
+    public void displayInfo() {
 
 
 
