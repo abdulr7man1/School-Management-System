@@ -2,7 +2,7 @@ package entities;
 
 import java.util.List;
 
-public class Teacher extends Person {
+public class Teacher extends Person{
     private String subject;
     private int experienceYears;
     private double salary;
@@ -17,6 +17,6 @@ public class Teacher extends Person {
         this.subject = subject;
         this.experienceYears = experienceYears;
         this.salary = salary;
-
+        this.classesTaught = classesTaught;
     }
 }
