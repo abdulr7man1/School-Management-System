@@ -51,4 +51,10 @@ public class Teacher extends Person{
     public void addClass(String className) {
         classesTaught.add(className);
     }
+
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+
+    }
 }
