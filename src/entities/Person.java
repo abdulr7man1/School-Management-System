@@ -57,7 +57,7 @@ this.address = address;
     }
 
     public void setId(String id) {
-        if (utils.HelperUtils.isEmpty(id)) {        // empty id is not allowed
+        if (utils.HelperUtils.isEmpty(id)) {
             System.out.println("Id cannot be empty. Keeping the old id.");
             return;
         }
