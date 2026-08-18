@@ -19,4 +19,14 @@ public class Teacher extends Person{
         this.salary = salary;
         this.classesTaught = classesTaught;
     }
+
+    public String getSubject() {
+        return subject;
+    }
+
+
+
+
+
+
 }
