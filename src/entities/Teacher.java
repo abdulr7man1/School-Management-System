@@ -7,5 +7,4 @@ public class Teacher extends Person{
     private int experienceYears;
     private double salary;
     private List<String> classesTaught;
-
 }
