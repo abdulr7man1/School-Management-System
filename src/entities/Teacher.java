@@ -35,4 +35,13 @@ public class Teacher extends Person{
     public List<String> getClassesTaught() {
         return classesTaught;
     }
+
+    public void setSubject(String subject) { this.subject = subject; }
+
+
+
+
+
+
+
 }
