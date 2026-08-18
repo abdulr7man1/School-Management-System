@@ -58,7 +58,7 @@ public class Student extends Person  {
     }
 
     public void setFeeBalance(double feeBalance) {
-            if (feeBalance < 0) {                       // a fee below 0 is not allowed
+            if (feeBalance < 0) {
                 System.out.println("Fee cannot be below 0. Keeping it at 0.");
                 this.feeBalance = 0;
                 return;
