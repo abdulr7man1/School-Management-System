@@ -73,6 +73,7 @@ public class Student extends Person {
         setPhoneNumber(phone);
     }
     public void updateContact(String phone, String email){
+      setPhoneNumber(phone);
 
 
     }
