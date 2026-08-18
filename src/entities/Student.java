@@ -74,7 +74,7 @@ public class Student extends Person {
     }
     public void updateContact(String phone, String email){
       setPhoneNumber(phone);
-
+      setEmail(email);
 
     }
 
