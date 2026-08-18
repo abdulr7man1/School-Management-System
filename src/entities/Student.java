@@ -77,6 +77,9 @@ public class Student extends Person {
       setEmail(email);
     }
     @Override
+    public void displayInfo(){
+
+    }
 
 
         }
