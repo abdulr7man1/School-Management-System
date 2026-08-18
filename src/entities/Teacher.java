@@ -16,7 +16,7 @@ public class Teacher extends Person {
         super(id, firstName, lastName, dateOfBirth, gender, phoneNumber, email, address);
         this.subject = subject;
         this.experienceYears = experienceYears;
-
+        this.salary = salary;
 
     }
 }
