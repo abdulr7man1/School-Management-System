@@ -32,5 +32,7 @@ public class Teacher extends Person{
         return salary;
     }
 
-
+    public List<String> getClassesTaught() {
+        return classesTaught;
+    }
 }
