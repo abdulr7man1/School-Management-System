@@ -12,8 +12,9 @@ public class SeniorStudent extends Student {
                 gradeLevel, enrollmentDate, feeBalance);
         this.major = major;
         this.gpa = gpa;
+    }
 
-
+    public String getMajor() { return major; }
 
 
 
