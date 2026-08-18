@@ -16,7 +16,7 @@ public class SeniorStudent extends Student {
 
     public String getMajor() { return major; }
     public double getGpa() { return gpa; }
-
+    public void setMajor(String major) { this.major = major; }
 
 
 
