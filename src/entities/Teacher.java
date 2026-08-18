@@ -12,7 +12,7 @@ public class Teacher extends Person {
             , String dateOfBirth, String gender,
                    String phoneNumber, String email,
                    String address, String subject, int experienceYears,
-
+                   double salary, List<String> classesTaught) {
 
 
 
