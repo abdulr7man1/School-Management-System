@@ -19,7 +19,7 @@ public class SeniorStudent extends Student {
     public void setMajor(String major) { this.major = major; }
     public void setGpa(double gpa) { this.gpa = gpa; }
 
-
+    @Override
 
 
 
