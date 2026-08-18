@@ -72,7 +72,8 @@ public class Student extends Person {
     public void updateContact(String phone){
         setPhoneNumber(phone);
     }
-    public void updateContact(String phone){
+    public void updateContact(String phone, String email){
+
 
     }
 
