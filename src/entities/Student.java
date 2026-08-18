@@ -66,8 +66,8 @@ public class Student extends Person {
         this.feeBalance = feeBalance;
     }
 
-        public void setSubjects (List < String > subjects) {
-                this.subjects = subjects;
+    public void addSubject(String subject) {
+        subjects.add(subject);
             }
         }
-    }
+
