@@ -44,7 +44,9 @@ public class Teacher extends Person{
             System.out.println("Experience cannot be below 0. Keeping it at 0.");
             this.experienceYears = 0;
             return;
-
+        }
+        this.experienceYears = experienceYears;
+    }
 
 
 }
