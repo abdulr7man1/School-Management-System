@@ -28,7 +28,7 @@ public class Student extends Person {
                 gender,
                 phoneNumber,
                 email,
-                addres
+                address
         );
 
     }
@@ -81,6 +81,9 @@ public class Student extends Person {
         System.out.println("Student: " + getFirstName() + " " + getLastName()
                 + " | grade: " + gradeLevel + " | fee balance: " + feeBalance);
     }
+
+
+
 
 
         }
